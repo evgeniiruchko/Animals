@@ -10,16 +10,16 @@ package ru.geekbrains.animals;
 public class Main {
 
     public static void main(String[] args) {
-//        Cat catTom = new Cat("Том", 200, 2);
-//        Cat catFelix = new Cat("Феликс", 200, 2);
-//        Dog dogGuffi = new Dog("Гуффи", 100, 2, 5);
-//        Dog dogSkubidu = new Dog ("СкубиДу", 1000, 1, 10);
-//        Animal[] animals = {catTom, catFelix, dogGuffi, dogSkubidu};
-//        for (int i =0; i < animals.length; i++){
-//            animals[i].Run(200);
-//            animals[i].Jump(2);
-//            animals[i].Swim(7);
-//            System.out.println("================");
-//        }
+        Cat catTom = new Cat("Том", 200, 2);
+        Cat catFelix = new Cat("Феликс", 200, 2);
+        Dog dogGuffi = new Dog("Гуффи", 100, 2, 5);
+        Dog dogSkubidu = new Dog ("СкубиДу", 1000, 1, 10);
+        Animal[] animals = {catTom, catFelix, dogGuffi, dogSkubidu};
+        for (int i =0; i < animals.length; i++){
+            animals[i].Run(200);
+            animals[i].Jump(2);
+            animals[i].Swim(7);
+            System.out.println("================");
+        }
     }
 }
